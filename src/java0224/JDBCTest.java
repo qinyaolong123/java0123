@@ -26,7 +26,7 @@ public class JDBCTest {
 				
 		    //创建命令窗口（写sql语句）
 			 pstmt = con.prepareStatement("select * from students");
-			 1
+			 
 			//运行sql语句 ，得到结果集
 			 rs = pstmt.executeQuery();
 			//显示结果集
